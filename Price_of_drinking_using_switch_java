@@ -1,0 +1,18 @@
+
+import java.util.Scanner;
+
+class PriceOfDrinkUsingSwitch{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a drink name:");
+         String drink = sc.nextLine();
+
+        switch (drink) {
+            case "Coffee" -> System.out.println("₹50");
+            case "Tea" -> System.out.println("₹30");
+            case "Juice" -> System.out.println("₹70");
+            case "Water" -> System.out.println("₹20");
+            default -> System.out.println("Invalid drink");
+        } 
+    }
+}
