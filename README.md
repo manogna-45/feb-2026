@@ -17,3 +17,4 @@ Programs included:
 - Maximum Elements in an Array
 - Integer to Roman using Switch
 - Month numbers using switch
+- Price of drinking using switch
